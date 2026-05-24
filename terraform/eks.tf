@@ -32,7 +32,7 @@ module "eks" {
       min_size     = 1
       max_size     = 2
       desired_size = 1
-      instance_types = ["t2.medium"]
+      instance_types = ["t3.small"]
       capacity_type  = "SPOT"
       tags = {
         ExtraTag = "helloworld"
